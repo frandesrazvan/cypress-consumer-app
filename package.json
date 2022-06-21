@@ -1,0 +1,19 @@
+{
+  "name": "ReturnBearAutomatedTests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:dev": "cypress open --config-file enviroment_variables/development.config.js",
+    "test:stg": "cypress open --config-file enviroment_variables/staging.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@testing-library/cypress": "^8.0.2",
+    "cypress": "10.0.0"
+  }
+}
